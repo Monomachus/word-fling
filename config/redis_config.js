@@ -4,7 +4,7 @@ var config = {
   options: {
     //auth_pass: 'password' // enable as needed
   },
-  db: 1 // selected Redis database
+  db: 0 // selected Redis database
 };
 
 module.exports = config;

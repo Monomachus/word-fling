@@ -78,7 +78,7 @@ app.parse(process.argv);
 
 if (!app.runningCommand) {
   var commands = app.commands.map(function(command) { return command._name; });
-  if (!_.contains(commands, app.rawArgs[2])) {
+  if (!_.includes(commands, app.rawArgs[2])) {
     app.help();
   }
 }
